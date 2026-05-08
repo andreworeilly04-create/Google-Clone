@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+button{
+    border:none;
+    outline:none;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+#google__container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap:37px;
+    width:100%;
+}
+
+.google__logo{
+    max-width:300px;
+    width:100%;
+    height:auto;
+    margin-top:200px;
+}
+
+.search_field{
+    width:90%;
+    max-width:600px;
+    height:50px;
+    border-radius:50px;
+    padding:0 38px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+
+.search_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    position: relative;
+}
+
+.fa-magnifying-glass{
+    width:100%;
+    position: relative;
+    left:36px;
+    cursor:pointer;
+}
+
+
+.btn__container{
+    display: flex;
+    gap:43px;
+}
+
+.google__search--btn{
+    padding:12px 12px;
+}
+
+.lucky__btn{
+    padding:12px 12px;
+}
+
+#suggestions-list {
+    background-color:white;
+    color:black;
+    border:1px solid #dfe1e5;
+    border-radius:0 0 24px 24px;
+    list-style:none;
+    padding: 10px 0;
+    position: absolute;
+    width:100%;
+    z-index:1000;
+    display: none;
+    top:100%;
+    left:0;
+    box-shadow: 0 4px 6px rgba(32,33,36,.28);
+}
+
+#suggestions-list li{
+    padding:10px 20px;
+    text-align:left;
+    cursor:pointer;
+    text-transform: capitalize;
+}
+
+#suggestions-list li:hover{
+    background-color:#f1f1f1;
+}
+
+.recent-header{
+    font-size:12px;
+    color:#70757a;
+    padding: 10px 20px 5px;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
+.recent-item{
+    color:#52188c !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+
+.recent-content{
+    display: flex;
+    align-items: center;
+}
+
+.remove-btn{
+    color:#70757a;
+    font-size:14px;
+    padding:5px 10px;
+    cursor:pointer;
+    border-radius:4px;
+}
+
+.remove-btn:hover{
+    background-color:#f1f3f4;
+    color:#202124;
+}
+
+@media (max-width:414px){
+    .search_field{
+        font-size:15px;
+        height:31px;
+    }
+    .google__logo{
+        padding:0 24px;
+    }
+
+    button{
+        font-size:11px;
+    }
+}
+
+@media (max-width:350px){
+    .google__logo{
+        padding:0 50px;
+    }
+    .search_field{
+        font-size:13px;
+    }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/google.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <section id="google__container">
+        <figure id="google__logo--container">
+            <img class="google__logo" src="assets/google__logo.png">
+        </figure>
+        <div class="search_container">
+            <i onclick="searchResults()"class="fa-solid fa-magnifying-glass"></i>
+            <input id="search-input" class="search_field" type="text" placeholder="Search Google or type a URL" type="text" autocomplete="off">
+            <ul id="suggestions-list"></ul>
+        </div>
+        <div class="btn__container">
+        <button onclick="searchResults()" class="google__search--btn">
+            Google Search
+        </button>
+        <button onclick="feelingLucky()" class="lucky__btn">
+            I'm Feeling Lucky
+        </button>
+        </div>
+    </section>
+</body>
+
+</html>
