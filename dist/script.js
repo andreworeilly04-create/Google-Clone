@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const input = document.getElementById('search-input');
 const suggestionsList = document.getElementById('suggestions-list');
 function searchResults() {
@@ -107,3 +108,4 @@ function removeRecentSearch(event, index) {
         suggestionsList.style.display = "none";
     }
 }
+//# sourceMappingURL=script.js.map
