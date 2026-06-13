@@ -48,13 +48,13 @@ Minimal UI design, responsive layouts, and interactive search functionality crea
 ### Clone the Repository
 
 ```bash id="c71ks2"
-git clone https://github.com/yourusername/google-search-clone.git
+git clone https://github.com/andreworeilly04-create/Google-Clone.git
 ```
 
 ### Navigate Into the Project Folder
 
 ```bash id="f83ls1"
-cd google-search-clone
+cd Google-Clone
 ```
 
 ### Open the Project
